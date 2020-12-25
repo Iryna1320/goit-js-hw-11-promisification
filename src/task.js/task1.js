@@ -1,7 +1,7 @@
 const delay = ms => {
   const promise = new Promise(reslove => {
-    setTimeout(() => reslove(ms));
-  }, ms);
+    setTimeout(() => reslove(ms), ms);
+  });
   return promise;
 };
 
